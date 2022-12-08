@@ -1,0 +1,126 @@
+<html>
+
+<head>
+  <link rel="style" href="style.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap/5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #030345;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+               <a href="index.html" target="_self" class="logo"> <img src="img/logo.png" alt="logo not found" width="100"
+            height="100"> </a>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li><a href="provide.html">What we provide? </a></li>
+        <li><a href="eduinst.html">Educational Institutions </a></li>
+        <li><a href="tutors.html">Tutors </a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Help <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <!--                                                                                                 fix the # -->
+            <li><a href="helpcenter.html">Help Center </a></li>
+            <li><a href="QandA.html">Q&A Forums</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> Sign Up </a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <h2> Login </h2>
+    <form action="/action_page.php">
+      <h5> User Type: </h5>
+      <select id= "type" class="select">
+
+        <option value="1"> ------ </option>
+        <option value="2"> Educational institution </option>
+        <option value="3">Tutor</option>
+      </select>
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+    
+
+      
+    
+
+      <script>
+if (new Date().getHours() < 18) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}
+</script>
+
+         <script type = "text/javascript">
+         <!--
+            var age = 15;
+         
+            if( age > 18 ) {
+               document.write("<b>Qualifies for driving</b>");
+            } else {
+               document.write("<b>Does not qualify for driving</b>");
+            }
+         //-->
+      </script> 
+
+       <script>
+    var age=20;
+    var ans;
+    
+    if (age < 18) {
+      ans = "Underage"
+    } else {
+      ans = "Let em in!";
+    }
+    
+  </script>
+
+        <script>
+    document.write(ans)
+  </script>
+      
+      <form action="profileduinst.html">
+ 
+</form>
+
+      <a href="profileduinst.html">
+      <input type="submit"/>
+    </a>
+
+      
+    </form>
+  </div>
+
+<a href="hiddenTutorSignup.html" class="btn btn-info" role="button">Link Button</a>
+
+
+</body>
+
+
+
+</html>

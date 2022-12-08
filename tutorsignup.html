@@ -1,0 +1,147 @@
+<html>
+
+<head>
+  <link rel="style" href="style.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap/5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #030345;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+                <a href="index.html" target="_self" class="logo"> <img src="img/logo.png" alt="logo not found" width="100"
+            height="100"> </a>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li><a href="provide.html">What we provide? </a></li>
+        <li><a href="eduinst.html">Educational Institutions </a></li>
+        <li><a href="tutors.html">Tutors </a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Help <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <!--                                                                                                 fix the # -->
+            <li><a href="helpcenter.html">Help Center </a></li>
+            <li><a href="QandA.html">Q&A Forums</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> Sign Up </a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+
+  <div class="container mt-3">
+    <h2>Tutor Sign Up </h2>
+    <form action="/action_page.php">
+      <!--     what is this??
+ -->
+      <h3> General Information</h3>
+      <div class="mb-3 mt-3">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="tutorname" placeholder="Enter Name" name="tutname">
+      </div>
+
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          <br>
+        </label>
+      </div>
+      <br>
+      <select class="select">
+        <h3> Qulaification </h3>
+        <option value="1" disabled>Qualification</option>
+        <option value="2">Bachelor</option>
+        <option value="3">Masters</option>
+        <option value="4">PhD</option>
+      </select>
+
+      <h3> Contact Information</h3>
+      <div class="mb-3 mt-3">
+        <label for="address">Address:</label>
+        <input type="text" class="form-control" id="tutoraddress" placeholder="Enter Address" name="tutaddress">
+      </div>
+
+      <div class="mb-3 mt-3">
+        <label for="phonenumber">Phone Number:</label>
+        <input type="text" class="form-control" id="tutornumber" placeholder="Enter Phone number" name="tutnum">
+      </div>
+
+
+      <h6 class="mb-0 me-4">Gender: </h6>
+
+      <div class="form-check form-check-inline mb-0 me-4">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" />
+        <label class="form-check-label" for="femaleGender">Female</label>
+      </div>
+
+      <div class="form-check form-check-inline mb-0 me-4">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+        <label class="form-check-label" for="maleGender">Male</label>
+      </div>
+
+      <h3> Experience </h3>
+      <div class="mb-3 mt-3">
+        <label for="noofyrs">Number of years: </label>
+        <input type="text" class="form-control" id="tutnoofyrs" placeholder="Number of years of experience"
+          name="tutnoofyrs">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="placename">Place name:</label>
+        <input type="text" class="form-control" id="tutorplacename" placeholder="Place Name" name="tutplacename">
+      </div>
+
+      <div class="mb-3 mt-3">
+        <label for="name">Nationality</label>
+        <input type="text" class="form-control" id="tutornaytionality" placeholder="Nationality" name="tutnationality">
+      
+
+  <div class="form-check d-flex justify-content-center mb-5" class="mb-3 mt-3">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+   
+    <label class="form-check-label" for="form2Example3">
+      I agree all statements in <a
+        href="https://termly.io/resources/templates/terms-of-service-template/#:~:text=AGREEMENT%20TO%20TERMS&text=You%20agree%20that%20by%20accessing,you%20must%20discontinue%20use%20immediately.">Terms
+        of service</a>
+    </label>
+  </div>
+        </div>
+
+
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+
+
+
+</body>
+
+
+
+</html>
